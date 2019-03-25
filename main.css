@@ -1,0 +1,53 @@
+.backimage{
+  position: absolute;
+width:100%;
+left: 0px;
+top: -70px;
+
+}
+.parabody{
+  position: absolute;
+left: 64px;
+top: 96px;
+}
+.devesh{
+  position: absolute;
+width: 499px;
+height: 106px;
+left: 164px;
+top: 196px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 200;
+font-size: 96px;
+line-height: 82px;
+
+color: #000000;
+
+}
+.line{
+  position: absolute;
+  width: 294px;
+  height: 0px;
+  left: 13px;
+  top: 352px;
+
+  border: 2px solid #000000;
+  transform: rotate(90deg);
+}
+.para{
+  position: absolute;
+width: 344px;
+height: 110px;
+left: 171px;
+top: 394px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: normal;
+
+color: #000000;
+}
