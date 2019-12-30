@@ -27,3 +27,44 @@
   position: fixed;
   bottom: 25px;
 }
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  
+  background-color: white;
+}
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+ color:black;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position:fixed;
+  top: 20px;
+  right:0;
+  font-size: 15px;
+  padding: 5px;
+  font-weight: bold;
+  transform: rotate(-90deg);
+}
