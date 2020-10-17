@@ -1,10 +1,38 @@
 .cs {
- font-family: 'Rubik Mono One', sans-serif;
-  height:96vh;
+  font-family: 'Rubik Mono One', sans-serif;
+  height:97vh;
   display:flex;
   justify-content:center;
   align-items:center;
   text-align:center;
+  flex-direction:row;
+}
+.material-icons {
+  padding:20px;
+  
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 
