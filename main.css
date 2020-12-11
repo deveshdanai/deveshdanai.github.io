@@ -1,107 +1,280 @@
-.cs {
-  font-family: 'Rubik Mono One', sans-serif;
-  height:97vh;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-  flex-direction:row;
-}
-.material-icons {
-  padding:20px;
+.mainbody{
+  display: flex; 
+   flex-direction: row;
+  justify-content: flex-start;
   
 }
-a:link {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
+
+
+.header{
+ 
+  position: fixed;  
+  height:90vh;
+  width:150px;
+  padding:10px;
+  display: flex; 
+   flex-direction: column;
+  justify-content: space-around;
+  
 }
 
+.name{
+ 
+font-family: Prompt;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+transform: rotate(-90deg);
+  
+}
+
+.work{
+  font-family: Prompt;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 54px;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+transform: rotate(-90deg);
+}
+
+.about{
+font-family: Prompt;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+
+color: #000000;
+
+transform: rotate(-90deg);
+}
+
+.chipbody{
+  margin-left: 150px;
+  display: flex; 
+   flex-direction: column;
+    flex-flow: row wrap;
+  justify-content:space-evenly;
+}
+
+.item1{ 
+   display: flex; 
+   flex-direction: column;
+  justify-content: flex-start;
+  margin:20px;
+width: 260px;
+height: 451px;
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+  
+}
+.image1{
+width: 260px;
+height: 385px;
+background: #F00FFF;
+background: url(https://res.cloudinary.com/dyag5tn5v/image/upload/v1607695635/Screenshot_6_cdels4.png);
+   background-repeat: no-repeat;
+  background-size: 260px ;
+border-radius: 6px 6px 0px 0px;
+}
+.item1info{
+  padding-top:17px;
+  padding-left:15px;
+width: 224px;
+height: 34px;
+font-family: Helvetica Neue;
+font-size: 13px;
+line-height: 16px;
+
+color: #000000;
+}
+
+.item2{ 
+   display: flex; 
+   flex-direction: column;
+  justify-content: flex-start;
+  margin:20px;
+width: 260px;
+height: 390px;
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+  
+}
+.image2{
+width: 260px;
+height: 385px;
+background: #F00FFF;
+background: url(https://res.cloudinary.com/dyag5tn5v/image/upload/v1607695656/Screenshot_11_csmev2.png);
+   background-repeat: no-repeat;
+  background-size: 260px ;
+border-radius: 6px 6px 0px 0px;
+}
+.item2info{
+ width:250px;
+   position:relative;
+  left: 14px;
+  top: -34px;
+font-family: Helvetica Neue;
+font-size: 13px;
+line-height: 16px;
+
+color: #000000;
+}
+.item3{ 
+   display: flex; 
+   flex-direction: column;
+  justify-content: flex-start;
+  margin:20px;
+width: 260px;
+height: 451px;
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+  
+}
+.image3{
+width: 260px;
+height: 385px;
+background: #F00FFF;
+background: url(https://res.cloudinary.com/dyag5tn5v/image/upload/v1607695649/Screenshot_8_u5cwyu.png);
+   background-repeat: no-repeat;
+  background-size: 260px ;
+border-radius: 6px 6px 0px 0px;
+}
+.item3info{
+  padding-top:28px;
+  padding-left:15px;
+width: 224px;
+height: 34px;
+font-family: Helvetica Neue;
+font-size: 13px;
+line-height: 16px;
+
+color: #000000;
+}
+
+.item4{ 
+   display: flex; 
+   flex-direction: column;
+  justify-content: flex-start;
+  margin:20px;
+width: 260px;
+height: 410px;
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+  
+}
+.image4{
+width: 260px;
+height: 385px;
+background: #F00FFF;
+background: url(https://res.cloudinary.com/dyag5tn5v/image/upload/v1607695630/Screenshot_10_xafxs3.png);
+   background-repeat: no-repeat;
+  background-size: 260px ;
+border-radius: 6px 6px 0px 0px;
+}
+.item4info{
+  width:250px;
+   position:relative;
+  left: 15px;
+top: -12px;
+font-family: Helvetica Neue;
+font-size: 13px;
+line-height: 16px;
+
+color: #000000;
+}
+.item5{ 
+   display: flex; 
+   flex-direction: column;
+  justify-content: flex-start;
+  margin:20px;
+width: 260px;
+height: 401px;
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+}
+
+.image5{
+width: 260px;
+height: 385px;
+background: #F00FFF;
+background: url(https://res.cloudinary.com/dyag5tn5v/image/upload/v1607695640/Screenshot_7_q1fjhb.png);
+   background-repeat: no-repeat;
+  background-size: 260px ;
+border-radius: 6px 6px 0px 0px;
+}
+.item5info{
+  width:250px;
+   position:relative;
+  left: 14px;
+  top: -25px;
+font-family: Helvetica Neue;
+font-size: 13px;
+line-height: 16px;
+
+color: #000000;
+}
+.item6{ 
+   display: flex; 
+   flex-direction: column;
+  justify-content: flex-start;
+  margin:20px;
+width: 260px;
+height: 300px;
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+  
+}
+.image6{
+width: 260px;
+height: 385px;
+background: #F00FFF;
+background: url(https://res.cloudinary.com/dyag5tn5v/image/upload/v1607698812/Screenshot_12_bmwcyg.png);
+   background-repeat: no-repeat;
+  background-size: 260px ;
+border-radius: 6px 6px 0px 0px;
+}
+.item6info{
+ width:250px;
+   position:relative;
+  left: 14px;
+  top: -120px;
+font-family: Helvetica Neue;
+font-size: 13px;
+line-height: 16px;
+
+color: #000000;
+}
+a:link { text-decoration:none;
+  color: #000000;
+}
+
+/* visited link */
 a:visited {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
+  color: #000000;
 }
 
+/* mouse over link */
 a:hover {
-  color: pink;
-  background-color: transparent;
-  text-decoration: underline;
+  color: #000000;
 }
 
+/* selected link */
 a:active {
-  color: black;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-
-.container{
-  font-size: 15px;
-  
-  position: fixed; 
-  top: 0;
-  right: 0;
-  width: 50px;
-  height: 100%;
-  background-color: whitesmoke; 
-  
-}
-.side{
-      padding: 5px;
-      font-weight: bold;
-      transform: rotate(-90deg);
-} 
-.test{
-  font-size: 40px;
-}
-.side1 {
-  position:relative;
-  top:20px;
-}
-.side2 {
-  position: fixed;
-  bottom: 70px;
-}
-.side3 {
-  position: fixed;
-  bottom: 25px;
-}
-
-.overlay {
-  height: 100%;
-  width: 100%;
-  display: none;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  
-  background-color: white;
-}
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
- color:black;
-  display: block;
-  transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-.overlay .closebtn {
-  position:fixed;
-  top: 20px;
-  right:0;  
+  color: #000000;
 }
