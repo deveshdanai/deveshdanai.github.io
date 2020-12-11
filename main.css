@@ -1,3 +1,24 @@
+.line1{
+  position: fixed;
+width: 2370px;
+height: 0px;
+left:-1020px;
+top: 0px;
+z-index:-1;
+border: 1px solid #C4C4C4;
+transform: rotate(90deg);
+}
+.line2{
+  position: fixed;
+width: 2370px;
+height: 0px;
+right:-1100px;
+top: 0px;
+  z-index:-1;
+
+border: 1px solid #C4C4C4;
+transform: rotate(90deg);
+}
 .mainbody{
   display: flex; 
    flex-direction: row;
@@ -92,7 +113,7 @@ border-radius: 6px 6px 0px 0px;
   padding-left:15px;
 width: 224px;
 height: 34px;
-font-family: Helvetica Neue;
+font-family: Prompt;
 font-size: 13px;
 line-height: 16px;
 
@@ -105,7 +126,7 @@ color: #000000;
   justify-content: flex-start;
   margin:20px;
 width: 260px;
-height: 390px;
+height: 400px;
 background: #FFFFFF;
 box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 border-radius: 6px;
@@ -121,11 +142,11 @@ background: url(https://res.cloudinary.com/dyag5tn5v/image/upload/v1607695656/Sc
 border-radius: 6px 6px 0px 0px;
 }
 .item2info{
- width:250px;
+ width:240px;
    position:relative;
   left: 14px;
   top: -34px;
-font-family: Helvetica Neue;
+font-family: Prompt;
 font-size: 13px;
 line-height: 16px;
 
@@ -157,7 +178,7 @@ border-radius: 6px 6px 0px 0px;
   padding-left:15px;
 width: 224px;
 height: 34px;
-font-family: Helvetica Neue;
+font-family: Prompt;
 font-size: 13px;
 line-height: 16px;
 
@@ -190,7 +211,7 @@ border-radius: 6px 6px 0px 0px;
    position:relative;
   left: 15px;
 top: -12px;
-font-family: Helvetica Neue;
+font-family: Prompt;
 font-size: 13px;
 line-height: 16px;
 
@@ -222,7 +243,7 @@ border-radius: 6px 6px 0px 0px;
    position:relative;
   left: 14px;
   top: -25px;
-font-family: Helvetica Neue;
+font-family:Prompt;
 font-size: 13px;
 line-height: 16px;
 
@@ -254,7 +275,7 @@ border-radius: 6px 6px 0px 0px;
    position:relative;
   left: 14px;
   top: -120px;
-font-family: Helvetica Neue;
+font-family: Prompt;
 font-size: 13px;
 line-height: 16px;
 
