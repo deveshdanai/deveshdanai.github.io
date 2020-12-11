@@ -82,9 +82,9 @@ transform: rotate(-90deg);
 .chipbody{
   margin-left: 150px;
   display: flex; 
-   flex-direction: column;
     flex-flow: row wrap;
   justify-content:flex-start;
+  align-items: baseline ;
 }
 
 .item1{ 
