@@ -1,12 +1,4 @@
-@media only screen and (max-width: 550px) {
-  .chipbody {
-    margin-left:50px;  }
-.header {
-padding:30px;
-    width:30px; }
-.line1 {
-left:-1117px; }
-}
+
 .line1{
   position: fixed;
 width: 2370px;
@@ -391,4 +383,13 @@ a:hover {
 /* selected link */
 a:active {
   color: #000000;
+}
+@media only screen and (max-width: 450px) {
+  .chipbody {
+    margin-left:60px;  }
+.header {
+padding:30px;
+    width:10px; }
+.line1 {
+left:-1080px; }
 }
