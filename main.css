@@ -384,10 +384,13 @@ a:hover {
 a:active {
   color: #000000;
 }
+
 @media only screen and (max-width: 450px) {
   .chipbody {
+    margin-top:100px;
     margin-left:60px;  }
 .header {
+  height:100%;
 padding:30px;
     width:10px; }
 .line1 {
