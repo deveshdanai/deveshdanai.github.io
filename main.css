@@ -1,3 +1,12 @@
+@media only screen and (max-width: 550px) {
+  .chipbody {
+    margin-left:50px;  }
+.header {
+padding:30px;
+    width:30px; }
+.line1 {
+left:-1117px; }
+}
 .line1{
   position: fixed;
 width: 2370px;
