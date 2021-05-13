@@ -1,0 +1,322 @@
+/* 
+Project Name: Cats who Code
+Client: One Month Students 
+Author: Chris Castig | @castig
+*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
+
+
+:root {
+          --colorpeach1: #F8DCD2;
+          --colorpeach2: #FF9671;
+          --colorblack1: #343635;
+          --colorblack2: #434645;
+}
+@media only screen and (min-width: 1000px) {
+/*----------------------------------------------------------------------------------------
+     FRAME 1 - left sticky header
+--------------------------------------------------------------------------------------------*/
+
+.container{
+     height: 100vh;
+     width: 100vw;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+
+}
+
+/*----------------------------------------------------------------------------------------
+     FRAME 1 - left sticky header
+--------------------------------------------------------------------------------------------*/
+
+.frame1{
+
+     height: 100vh;
+     width:30%;
+     background-color: #F1F1F1;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-end;
+     
+}
+
+
+/*----------------------------------------------------------------------------------------
+     FRAME 2 - scrolling right side
+--------------------------------------------------------------------------------------------*/
+
+
+.frame2{
+
+     height: 100vh;
+     width:70%;
+     display: flex;
+
+     
+}
+
+
+/*----------------------------------------------------------------------------------------
+     FRAME 4 - footer
+--------------------------------------------------------------------------------------------*/
+
+
+.frame4{
+
+     height: 40px;
+     width: 70%;
+     position: fixed;
+     bottom:0;
+     right: 0;
+     
+     z-index: 1;
+        display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-end;
+    align-items: flex-end;
+
+     
+}
+footer{
+   padding-left: 60px;  
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   width:100%;
+}
+footer p{
+     padding-right: 60px;
+     font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+text-align: right;
+text-decoration: none;
+color: #434645;
+margin:0;
+
+}
+footer ul{
+
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     margin: 0;
+     padding:0;
+     
+
+}
+
+
+footer a{
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+text-align: right;
+text-decoration: none;
+color: #434645;
+padding-right:10px; 
+
+}
+
+footer li:hover{
+     transform: scale(1.02);
+     transition: transform 100ms ease-in;
+     color: black;
+}
+
+
+/*----------------------------------------------------------------------------------------
+     Header 
+--------------------------------------------------------------------------------------------*/
+
+header{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     margin-right:60px;
+}
+
+.sitename{
+
+}
+.sitename:hover{
+     transform: scale(1.02);
+     transition: transform 100ms ease-in;
+     
+}
+
+.sitename a,h1{
+     font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #434645;
+text-decoration: none;
+margin: 0;
+}
+
+ul{
+     list-style: none;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     margin-bottom: 0;
+}
+
+li{
+     padding: 7px 0;
+
+}
+ul li,a{
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+text-align: right;
+text-decoration: none;
+color: #434645;
+
+}
+
+li:hover{
+     transform: scale(1.02);
+     transition: transform 100ms ease-in;
+     color: black;
+}
+
+
+
+/*----------------------------------------------------------------------------------------
+     main -  
+--------------------------------------------------------------------------------------------*/
+
+.main{    
+     
+     display: flex;
+     flex-wrap: wrap;
+     max-width: 60%;
+     flex-direction: row;
+     align-content: center;
+     justify-content: flex-start;
+     margin-left: 60px;
+
+}
+
+.post{
+     font-family: oswald;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 32px;
+     line-height: 71px;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+
+}
+
+.post h2{
+margin: 0 40px 0 0;
+font-size: 48px;
+}
+
+.post span,p{
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+margin-top: 2px;
+color: #343635;
+}
+
+.post a{
+     font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 71px;
+
+color: #343635;
+
+}
+
+.post h2 a:link{
+     text-decoration: none;
+     color: var(--colorblack1);
+}
+.post h2 a:visited{
+     text-decoration: none;
+     color: var(--colorblack1);
+}
+.post h2 a:hover{
+     
+     text-decoration: none;
+     color: var(--colorpeach2);
+     transition: 200ms linear;
+
+}
+.post h2 a:active{
+     
+     text-decoration: none;
+     color: var(--colorpeach2);
+     
+}
+
+.frame3{
+
+     height: 100vh;
+     width: 100vw;
+     position: fixed;
+     top:0;
+     left: 0;
+     border:1px solid red;
+     z-index: -1;
+     background-color: #f6f6f6;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: center;
+}
+
+.imagebox{
+     width: 500px;
+     height: 500px;
+     background-color: beige;
+     background-image: url(1.png);
+     display:none ;
+}
+
+.mystyle{
+     width: 1000px;
+     height: 1500px;
+     background-color: beige;
+     background-image: url(1.png);
+     display:none ;
+}
+img{
+     display: none;
+}
+
+}
