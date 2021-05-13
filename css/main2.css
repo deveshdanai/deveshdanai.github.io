@@ -1,0 +1,232 @@
+/* 
+Project Name: Cats who Code
+Client: One Month Students 
+Author: Chris Castig | @castig
+*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
+
+
+:root {
+          --colorpeach1: #F8DCD2;
+          --colorpeach2: #FF9671;
+          --colorblack1: #343635;
+          --colorblack2: #434645;
+}
+
+
+@media only screen and (max-width: 999px) {
+  
+
+
+/*----------------------------------------------------------------------------------------
+     FRAME 1 - left sticky header
+--------------------------------------------------------------------------------------------*/
+
+.container{
+     
+display: flex;
+flex-direction: column;
+}
+
+/*----------------------------------------------------------------------------------------
+     FRAME 1 - left sticky header
+--------------------------------------------------------------------------------------------*/
+
+.frame1{
+     height: 100px;
+     width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+    background-color: white;
+}
+
+
+/*----------------------------------------------------------------------------------------
+     FRAME 2 - scrolling right side
+--------------------------------------------------------------------------------------------*/
+
+
+.frame2{
+padding-top: 100px;
+    height: 100%;
+     width: 100vw; 
+     display: flex;
+     justify-content: center;
+}
+
+
+
+/*----------------------------------------------------------------------------------------
+     Header 
+--------------------------------------------------------------------------------------------*/
+
+header{
+      display: flex;
+      flex-direction: row;
+      align-items: center; 
+      justify-content: space-between;
+      width: 90%;
+}
+
+.sitename{
+
+}
+
+
+.sitename a,h1{
+     font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #434645;
+text-decoration: none;
+margin: 0;
+}
+
+ul{
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: flex-end;
+     margin: 0;
+}
+
+li{
+     padding-left: 20px;
+
+}
+ul li,a{
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+text-align: right;
+text-decoration: none;
+color: #434645;
+
+}
+
+
+
+
+
+/*----------------------------------------------------------------------------------------
+     main -  
+--------------------------------------------------------------------------------------------*/
+
+.main{    
+     
+     display: flex;
+     flex-wrap: wrap;
+     max-width: 100%;
+     flex-direction: row;
+     justify-content: center;
+     margin:10px;
+
+}
+
+.post{
+     font-family: oswald;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 32px;
+     line-height: 71px;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     margin: 10px;
+}
+
+.post h2{
+margin: 0 40px 0 0;
+
+}
+
+.post span,p{
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+margin-top: 2px;
+color: #343635;
+}
+
+.post a{
+     font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 71px;
+
+color: #343635;
+
+}
+
+.post h2 a:link{
+     text-decoration: none;
+     color: var(--colorblack1);
+}
+.post h2 a:visited{
+     text-decoration: none;
+     color: var(--colorblack1);
+}
+.post h2 a:hover{
+     
+     text-decoration: none;
+     color: var(--colorpeach2);
+     transition: 200ms linear;
+
+}
+.post h2 a:active{
+     
+     text-decoration: none;
+     color: var(--colorpeach2);
+     
+}
+
+.frame3{
+
+}
+
+.imagebox{
+     width: 500px;
+     height: 500px;
+     background-color: beige;
+     background-image: url(1.png);
+     display:none ;
+}
+
+.mystyle{
+     width: 1000px;
+     height: 1500px;
+     background-color: beige;
+     background-image: url(1.png);
+     display:none ;
+}
+
+img{
+     width:300px;
+}
+
+
+}
+
