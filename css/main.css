@@ -1,0 +1,459 @@
+/* 
+Project Name: Cats who Code
+Client: One Month Students 
+Author: Chris Castig | @castig
+*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
+
+
+:root {
+          --colorpeach1: #F8DCD2;
+          --colorpeach2: #FF9671;
+          --colorblack1: #343635;
+          --colorblack2: #434645;
+}
+@media only screen and (min-width: 1000px) {
+/*----------------------------------------------------------------------------------------
+     FRAME 1 - left sticky header
+--------------------------------------------------------------------------------------------*/
+
+.container{
+     height: 100vh;
+     width: 100vw;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+
+}
+
+/*----------------------------------------------------------------------------------------
+     FRAME 1 - left sticky header
+--------------------------------------------------------------------------------------------*/
+
+.frame1{
+
+     height: 100vh;
+     width:30%;
+     background-color: #F1F1F1;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-end;
+     
+}
+
+
+/*----------------------------------------------------------------------------------------
+     FRAME 2 - scrolling right side
+--------------------------------------------------------------------------------------------*/
+
+
+.frame2{
+ height: 100vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    align-content: flex-start;
+     
+}
+
+
+/*----------------------------------------------------------------------------------------
+     FRAME 4 - footer
+--------------------------------------------------------------------------------------------*/
+
+
+.frame4{
+
+     height: 40px;
+     width: 70%;
+     position: fixed;
+     bottom:0;
+     right: 0;
+     
+     z-index: 1;
+        display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-end;
+    align-items: flex-end;
+
+     
+}
+
+footer{
+   padding-left: 60px;  
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   width:100%;
+}
+footer p{
+     padding-right: 60px;
+     font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+text-align: right;
+text-decoration: none;
+color: #434645;
+margin:0;
+
+}
+footer ul{
+
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     margin: 0;
+     padding:0;
+     
+
+}
+
+
+footer a{
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+text-align: right;
+text-decoration: none;
+color: #434645;
+padding-right:10px; 
+
+}
+
+footer li:hover{
+     transform: scale(1.02);
+     transition: transform 100ms ease-in;
+     color: black;
+}
+
+
+/*----------------------------------------------------------------------------------------
+     Header 
+--------------------------------------------------------------------------------------------*/
+
+header{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     margin-right:60px;
+}
+
+.sitename{
+
+}
+.sitename:hover{
+     transform: scale(1.02);
+     transition: transform 100ms ease-in;
+     
+}
+
+.sitename a,h1{
+     font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #434645;
+text-decoration: none;
+margin: 0;
+}
+
+ul{
+     list-style: none;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     margin-bottom: 0;
+}
+
+li{
+     padding: 7px 0;
+
+}
+ul li,a{
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+text-align: right;
+text-decoration: none;
+color: #434645;
+
+}
+
+li:hover{
+     transform: scale(1.02);
+     transition: transform 100ms ease-in;
+     color: black;
+}
+
+.tohide{
+     display: none;
+}
+
+/*----------------------------------------------------------------------------------------
+     main -  
+--------------------------------------------------------------------------------------------*/
+
+.main{    
+     
+     display: flex;
+     flex-wrap: wrap;
+     max-width: 60%;
+     flex-direction: row;
+     align-content: center;
+     justify-content: flex-start;
+     margin-left: 60px;
+
+}
+
+.post{
+     font-family: oswald;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 32px;
+     line-height: 71px;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+
+}
+
+.post h2{
+margin: 0 40px 0 0;
+font-size: 48px;
+}
+
+.post span,p{
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+margin-top: 2px;
+color: #343635;
+}
+
+.post a{
+     font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 71px;
+
+color: #343635;
+
+}
+
+.post h2 a:link{
+     text-decoration: none;
+     color: var(--colorblack1);
+}
+.post h2 a:visited{
+     text-decoration: none;
+     color: var(--colorblack1);
+}
+.post h2 a:hover{
+     
+     text-decoration: none;
+     color: var(--colorpeach2);
+     transition: 200ms linear;
+
+}
+.post h2 a:active{
+     
+     text-decoration: none;
+     color: var(--colorpeach2);
+     
+}
+
+.frame3{
+
+     height: 100vh;
+     width: 100vw;
+     position: fixed;
+     top:0;
+     left: 0;
+     
+     z-index: -1;
+     background-color: #f6f6f6;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: center;
+}
+
+.imagebox{
+     width: 500px;
+     height: 500px;
+     background-color: beige;
+     background-image: url(front.gif);
+     background-size: cover;
+     display:none ;
+
+}
+.imagebox1{
+     width: 500px;
+     height: 500px;
+     background: beige url("11a.jpg") no-repeat center;
+     background-size: cover;
+     display:none ;
+}
+.imagebox2{
+     width: 500px;
+     height: 500px;
+     background: beige url("55a.jpg") no-repeat top;
+     background-size: cover;
+     display:none ;
+     background-position: top;
+}
+.imagebox3{
+     width: 500px;
+     height: 500px;
+     background: beige url("44a.png") no-repeat center;
+     background-size: cover;
+     display:none ;
+}
+.imagebox4{
+     width: 500px;
+     height: 500px;
+     background: beige url("66a.png") no-repeat center;
+     background-size: cover;
+     display:none ;
+}
+.imagebox5{
+     width: 500px;
+     height: 500px;
+     background: beige url("33b.jpg") no-repeat center;
+     background-size: cover;
+     display:none ;
+}
+.imagebox6{
+     width: 500px;
+     height: 500px;
+     background: beige url("22a.png ") no-repeat center;
+     background-size: cover;
+     display:none ;
+}
+.mystyle{
+     width: 1000px;
+     height: 1500px;
+     background-color: beige;
+     background-image: url(1.png);
+     display:none ;
+}
+img{
+     display: none;
+}
+
+
+
+
+
+
+
+.insta1 {
+       height: 200px;
+       width:200px;
+       background-image: url("https://instagram.fdel25-1.fna.fbcdn.net/v/t51.2885-15/e35/184808262_534886130969645_1218502444281264127_n.jpg?tp=1&_nc_ht=instagram.fdel25-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=T7wIKQ7dr80AX-2XgxM&edm=AJBgZrYBAAAA&ccb=7-4&oh=75371444dfc6ac4b27ce893e5726644e&oe=60B81B60&_nc_sid=78c662");
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.about_main{
+
+     display: flex;
+    flex-direction: row;
+   
+    padding-left: 60px;
+    align-items: center;
+}
+
+
+.heading_{
+
+width: 133px;
+height: 71px;
+
+margin-bottom: 30px;
+font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 71px;
+
+color: #343635;
+}
+
+
+
+.about_content{
+
+
+
+
+
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 123%;
+/* or 17px */
+
+
+color: #000000;
+
+}
+
+.about_img{
+
+width: 300px;
+height: 300px;
+background-image: url("dev.jpeg");
+border-radius: 100%;
+background-position: center;
+background-size:cover;
+margin-left: 30px;
+
+}
+
+
+.about_text{
+     width: 50%;
+}
+
+
+
+}
+
+

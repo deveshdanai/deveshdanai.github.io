@@ -1,0 +1,440 @@
+/* 
+Project Name: Cats who Code
+Client: One Month Students 
+Author: Chris Castig | @castig
+*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
+
+
+:root {
+          --colorpeach1: #F8DCD2;
+          --colorpeach2: #FF9671;
+          --colorblack1: #343635;
+          --colorblack2: #434645;
+}
+
+
+@media only screen and (max-width: 999px) {
+  
+
+body{background-color: #f6f6f6;
+    
+}
+/*----------------------------------------------------------------------------------------
+     FRAME 1 - left sticky header
+--------------------------------------------------------------------------------------------*/
+
+.container{
+     
+display: flex;
+flex-direction: column;
+ 
+}
+
+/*----------------------------------------------------------------------------------------
+     FRAME 1 - left sticky header
+--------------------------------------------------------------------------------------------*/
+
+.frame1{
+     height: 100px;
+     width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+    background-color: #f6f6f6;
+}
+
+
+/*----------------------------------------------------------------------------------------
+     FRAME 2 - scrolling right side
+--------------------------------------------------------------------------------------------*/
+
+
+.frame2{
+padding-top: 100px;
+    height: 100%;
+     width: 100vw; 
+     display: flex;
+     justify-content: center;
+     background-color: #f6f6f6;
+}
+
+
+
+/*----------------------------------------------------------------------------------------
+     Header 
+--------------------------------------------------------------------------------------------*/
+
+header{
+      display: flex;
+      flex-direction: row;
+      align-items: center; 
+      justify-content: space-between;
+      width: 90%;
+}
+
+.sitename{
+
+}
+
+
+.sitename a,h1{
+     font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #434645;
+text-decoration: none;
+margin: 0;
+}
+
+
+
+.overlay {  
+  display: flex;
+  flex-direction: column;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #F1F1F1;
+  
+  overflow-x: hidden;
+  transition: 0.3s;
+}
+
+.overlay-content {
+    
+      width: 100%;
+      padding:0;
+      height: 100vh;
+ 
+}
+.overlay-content ul{
+    
+    display: flex;
+    padding:0;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    height: 300px;
+    justify-content: center;
+}
+
+.overlay a {
+    font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+text-align: right;
+text-decoration: none;
+color: #434645;
+  transition: 0.3s;
+}
+
+
+
+.overlay .closebtn {
+  
+  font-size: 40px;
+font-weight: 350;
+height:23px;
+width: 18px;
+  
+}
+
+.frame_a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 90%;
+}
+
+.frame_b{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+nav{
+    display: none;
+}
+/*----------------------------------------------------------------------------------------
+     main -  
+--------------------------------------------------------------------------------------------*/
+
+.main{    
+     
+     display: flex;
+     flex-wrap: wrap;
+     max-width: 100%;
+     flex-direction: row;
+     justify-content: center;
+     margin:10px;
+     padding-bottom: 50px;
+
+}
+
+.post{
+     font-family: oswald;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 32px;
+     line-height: 71px;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     margin: 10px;
+}
+
+.post h2{
+margin: 0 40px 0 0;
+
+}
+
+.post span,p{
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+margin-top: 2px;
+color: #343635;
+}
+
+.post a{
+     font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 71px;
+
+color: #343635;
+
+}
+
+.post h2 a:link{
+     text-decoration: none;
+     color: var(--colorblack1);
+}
+.post h2 a:visited{
+     text-decoration: none;
+     color: var(--colorblack1);
+}
+.post h2 a:hover{
+     
+     text-decoration: none;
+     color: var(--colorpeach2);
+     transition: 200ms linear;
+
+}
+.post h2 a:active{
+     
+     text-decoration: none;
+     color: var(--colorpeach2);
+     
+}
+
+.frame3{
+
+}
+
+.imagebox{
+     width: 500px;
+     height: 500px;
+     background-color: beige;
+     background-image: url(1.png);
+     display:none ;
+}
+
+.mystyle{
+     width: 1000px;
+     height: 1500px;
+     background-color: beige;
+     background-image: url(1.png);
+     display:none ;
+}
+
+img{
+     width:300px;
+}
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------
+     FRAME 4 - footer
+--------------------------------------------------------------------------------------------*/
+
+
+.frame4{
+
+     height: 40px;
+     width: 100%;
+    
+     z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #f6f6f6;
+
+     
+}
+footer{
+   padding-left: 0;  
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   width:90%;
+}
+footer p{
+     padding-right: 0;
+     font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+text-align: right;
+text-decoration: none;
+color: #434645;
+margin:0;
+
+
+}
+footer ul{
+
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     margin: 0;
+     padding:0;
+     
+
+}
+
+
+footer a{
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+text-align: right;
+text-decoration: none;
+color: #434645;
+padding-right:10px; 
+
+}
+
+footer li:hover{
+     transform: scale(1.02);
+     transition: transform 100ms ease-in;
+     color: black;
+}
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.about_main{
+
+        display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    align-items: center;
+    padding-bottom: 50px;
+
+
+}
+.heading_{
+
+width: 133px;
+height: 71px;
+
+
+font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 71px;
+
+color: #343635;
+}
+
+
+
+.about_content{
+
+
+
+
+
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 123%;
+/* or 17px */
+
+
+color: #000000;
+
+}
+
+.about_img{
+
+width: 300px;
+height: 300px;
+background-image: url("dev.jpeg");
+border-radius: 100%;
+background-position: center;
+background-size:cover;
+margin-top: 50px;
+
+}
+
+
+.about_text{
+     width: 80%;
+}
+
+
+
+
+
+
+
+}
