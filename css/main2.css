@@ -44,15 +44,14 @@ flex-direction: column;
 --------------------------------------------------------------------------------------------*/
 
 .frame1{
-     height: 100px;
-     width: 100vw;
+     height: 70px;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-
     position: fixed;
     background-color: #f6f6f6;
+    justify-content: center;
 }
 
 
@@ -296,7 +295,7 @@ img{
 
 .frame4{
 
-     height: 40px;
+     height: 30px;
      width: 100%;
     
      z-index: 1;
@@ -320,16 +319,7 @@ footer{
    width:90%;
 }
 footer p{
-     padding-right: 0;
-     font-family: Josefin Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 10px;
-line-height: 12px;
-text-align: right;
-text-decoration: none;
-color: #434645;
-margin:0;
+    display: none;
 
 
 }
@@ -562,9 +552,18 @@ display: flex;
     align-items: center;
     backdrop-filter: blur(2px);
     background: rgba(0,0,0,0.02);
-}
+    font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+
+text-decoration: none;
+color: #434645;
 
 }
+
+
 
 .goback_text_m{
 
@@ -573,34 +572,44 @@ font-family: arrow_back:
 }
 
 
-.micdrop{
-     /* CAT? CHAI? CHESS? DESIGN? CODING? FABRIC? */
 
-    /*position: absolute;
-    width: 100%;
-    height: 100%;
-    left: -250px;
-    bottom: -201px;
-    font-family: Josefin Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 68px;
-    line-height: 60px;
-    display: flex;
-    z-index: 0;
-    color: #e4e4e4;
-    transform: rotate(
--90deg
-);
-    flex-direction: column;
+
+.image_cv1{
+  width: 95%;
+    height: 1000px;
+    background-image: url(cvfinal.jpg);
+    background-size: cover;
+
+}
+.big{
+  display: none;
+}
+.small{
+
+}
+
+.article_main .download_link_button{
+  display: flex;
+  justify-content: center;
     align-items: center;
-    justify-content: flex-end;*/
+position: fixed;
+bottom: 50px;
+left: 10%;
+width: 100px;
+height: 30px;
+ backdrop-filter: blur(8px);
+    background: rgba(0,0,0,0.02);
+border-radius: 30px;
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
 
-    display: none;
+text-decoration: none;
+color: #434645;
 
-
-
-
+}
 
 
 }
