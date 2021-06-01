@@ -36,6 +36,20 @@ if it's not present, don't show loader */
      z-index: 9999;
      background: url(https://res.cloudinary.com/dyag5tn5v/image/upload/v1622321695/1490_ooyu2a.gif) center no-repeat #fff;
 }
+
+
+
+.noSelect {
+  -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*highlight*/
 @media only screen and (min-width: 1000px) {
 
 

@@ -137,7 +137,9 @@ margin: 0;
     height: 300px;
     justify-content: center;
 }
-
+.overlay-content li{
+    padding:10px;
+}
 .overlay a {
     font-family: Josefin Sans;
 font-style: normal;
