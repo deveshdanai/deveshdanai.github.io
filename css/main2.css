@@ -286,7 +286,15 @@ img{
 
 
 
-
+.article_content p{
+  padding-top: 40px;
+  font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 123%;
+    color: #000000;
+}
 
 /*----------------------------------------------------------------------------------------
      FRAME 4 - footer
@@ -582,10 +590,10 @@ font-family: arrow_back:
 
 }
 .big{
-  display: none;
+  
 }
 .small{
-
+display: none;
 }
 
 .article_main .download_link_button{

@@ -379,7 +379,7 @@ color: #343635;
 .imagebox3{
      width: 500px;
      height: 500px;
-     background: beige url("https://res.cloudinary.com/dyag5tn5v/image/upload/q_auto:low/v1622310152/portfilio/Index/44a.png") no-repeat center;
+     background: beige url("https://res.cloudinary.com/dyag5tn5v/image/upload/c_scale,w_644/v1622579481/portfilio/Screenshot_2021-06-02_at_2.00.51_AM.webp") no-repeat center;
      background-size: cover;
      display:none ;
 }
@@ -404,6 +404,7 @@ color: #343635;
      background-size: cover;
      display:none ;
 }
+
 .mystyle{
      width: 1000px;
      height: 1500px;
@@ -414,7 +415,6 @@ color: #343635;
 .post img{
      display: none;
 }
-
 
 
 
@@ -631,6 +631,18 @@ display: flex;
     padding-right: 10%;
     padding-bottom: 30px;
 }
+
+
+.article_content p{
+  padding-top: 40px;
+  font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 123%;
+    color: #000000;
+}
+
 /*goback--------------------------------------------------------------------------------*/
 .goback_text{
     /* position: absolute; */
