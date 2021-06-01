@@ -67,6 +67,7 @@ padding-top: 100px;
      display: flex;
      justify-content: center;
      background-color: #f6f6f6;
+    
 }
 
 
@@ -89,6 +90,7 @@ header{
 
 
 .sitename a,h1{
+
      font-family: Josefin Sans;
 font-style: normal;
 font-weight: normal;
@@ -200,11 +202,7 @@ nav{
 }
 
 .post{
-     font-family: oswald;
-     font-style: normal;
-     font-weight: bold;
-     font-size: 32px;
-     line-height: 71px;
+     
      display: flex;
      flex-direction: column;
      justify-content: flex-start;
@@ -212,7 +210,9 @@ nav{
 }
 
 .post h2{
-margin: 0 40px 0 0;
+
+
+
 
 }
 
@@ -231,7 +231,6 @@ color: #343635;
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
-line-height: 71px;
 
 color: #343635;
 
@@ -241,23 +240,7 @@ color: #343635;
      text-decoration: none;
      color: var(--colorblack1);
 }
-.post h2 a:visited{
-     text-decoration: none;
-     color: var(--colorblack1);
-}
-.post h2 a:hover{
-     
-     text-decoration: none;
-     color: var(--colorpeach2);
-     transition: 200ms linear;
 
-}
-.post h2 a:active{
-     
-     text-decoration: none;
-     color: var(--colorpeach2);
-     
-}
 
 .frame3{
 
@@ -284,7 +267,28 @@ img{
 }
 
 
+.post_0{
+height:380px;
+}
+.post_1{
+    height:300px;
+}
+.post_2{
+     height:470px;
+}
+.post_3{
+    height:380px;
+}
+.post_4{
+    height:380px;
+}
+.post_5{
+    height:300px;
+}
 
+.post_6{
+    height:400px;
+}
 
 .article_content p{
   padding-top: 40px;
@@ -327,9 +331,18 @@ footer{
    width:90%;
 }
 footer p{
-    display: none;
-
-
+    
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: right;
+    text-decoration: none;
+    color: #434645;
+    /* padding-right: 10px; */
+    padding-top: 5px;
+    margin: 0 0 0 0;
 }
 footer ul{
 
