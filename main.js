@@ -168,6 +168,29 @@ post7.addEventListener(
 	);
 }
 
+//--------
+let post8 = document.querySelector('.post7');
+let frame8 = document.querySelector('.imagebox7');
+console.log(post8);
+if(post8) {
+	post8.addEventListener(
+		'mouseover', function() {
+
+		frame8.setAttribute("style", "display:block;");
+		}
+	);
+}
+
+if(post8) {
+post8.addEventListener(
+		'mouseleave', function() {
+		frame8.setAttribute("style", "display:none;");
+		
+		}
+	);
+}
+
+
 //first post 
 
 

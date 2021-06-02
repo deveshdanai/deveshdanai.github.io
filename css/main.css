@@ -405,7 +405,13 @@ color: #343635;
      display:none ;
 }
 
-
+.imagebox7{
+     width: 500px;
+     height: 500px;
+     background: beige url("https://res.cloudinary.com/dyag5tn5v/image/upload/c_scale,w_972/v1622646424/p8/Screenshot_2021-06-02_at_8.36.31_PM.webp") no-repeat center;
+     background-size: cover;
+     display:none ;
+}
 .post img{
      display: none;
 }
