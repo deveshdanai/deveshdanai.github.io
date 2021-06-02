@@ -189,6 +189,27 @@ post8.addEventListener(
 		}
 	);
 }
+//--------
+let post9 = document.querySelector('.post8');
+let frame9 = document.querySelector('.imagebox8');
+console.log(post9);
+if(post9) {
+	post9.addEventListener(
+		'mouseover', function() {
+
+		frame9.setAttribute("style", "display:block;");
+		}
+	);
+}
+
+if(post9) {
+post9.addEventListener(
+		'mouseleave', function() {
+		frame9.setAttribute("style", "display:none;");
+		
+		}
+	);
+}
 
 
 //first post 

@@ -412,6 +412,14 @@ color: #343635;
      background-size: cover;
      display:none ;
 }
+
+.imagebox8{
+     width: 500px;
+     height: 500px;
+     background: beige url("https://res.cloudinary.com/dyag5tn5v/image/upload/c_scale,w_896/v1622648964/Screenshot_2021-06-02_at_9.18.49_PM_svcx4v.webp") no-repeat center;
+     background-size: cover;
+     display:none ;
+}
 .post img{
      display: none;
 }
