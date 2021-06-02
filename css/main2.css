@@ -246,21 +246,9 @@ color: #343635;
 
 }
 
-.imagebox{
-     width: 500px;
-     height: 500px;
-     background-color: beige;
-     background-image: url(1.png);
-     display:none ;
-}
 
-.mystyle{
-     width: 1000px;
-     height: 1500px;
-     background-color: beige;
-     background-image: url(1.png);
-     display:none ;
-}
+
+
 
 img{
      width:300px;
