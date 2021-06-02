@@ -405,13 +405,7 @@ color: #343635;
      display:none ;
 }
 
-.mystyle{
-     width: 1000px;
-     height: 1500px;
-     background-color: beige;
-     background-image: url(1.png);
-     display:none ;
-}
+
 .post img{
      display: none;
 }

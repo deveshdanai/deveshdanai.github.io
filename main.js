@@ -16,8 +16,6 @@ window.addEventListener('contextmenu', function (e) {
 
 
 
-
-
 let post1 = document.querySelector('.post');
 let frame1 = document.querySelector('.imagebox');
 console.log(post1);
@@ -169,6 +167,7 @@ post7.addEventListener(
 		}
 	);
 }
+
 //first post 
 
 
