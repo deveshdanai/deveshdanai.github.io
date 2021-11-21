@@ -14,6 +14,49 @@ window.addEventListener('contextmenu', function (e) {
 
 
 
+//--------
+let post10 = document.querySelector('.post9');
+let frame10 = document.querySelector('.imagebox9');
+console.log(post10);
+if(post10) {
+	post10.addEventListener(
+		'mouseover', function() {
+
+		frame10.setAttribute("style", "display:block;");
+		}
+	);
+}
+
+if(post10) {
+post10.addEventListener(
+		'mouseleave', function() {
+		frame10.setAttribute("style", "display:none;");
+		
+		}
+	);
+}
+
+//--------
+let post11 = document.querySelector('.post10');
+let frame11 = document.querySelector('.imagebox10');
+console.log(post11);
+if(post11) {
+	post11.addEventListener(
+		'mouseover', function() {
+
+		frame11.setAttribute("style", "display:block;");
+		}
+	);
+}
+
+if(post11) {
+post11.addEventListener(
+		'mouseleave', function() {
+		frame11.setAttribute("style", "display:none;");
+		
+		}
+	);
+}
 
 
 let post1 = document.querySelector('.post');

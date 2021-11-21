@@ -6,6 +6,7 @@
     	<meta name="deveshdanai" content="design, portfolio, devesh danai, devesh">
 		<title>devesh danai</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/magic-mouse.css" rel="stylesheet">
 		<link href="css/normalize.css" rel="stylesheet">
 		<link href="css/main2.css" rel="stylesheet">
 		<link href="css/main.css" rel="stylesheet">
@@ -30,15 +31,15 @@
 			<header>
 
 				<div class="sitename"> 
-					<a href="index.html" class="link_hov"><h1>:DEVESH :DANAI</h1></a>
+					<a href="index.html" class="magic-hover magic-hover__square"><h1>:DEVESH :DANAI</h1></a>
 				</div> 
 				<!-- sitename -->
 
 			<nav>
 				 <ul>
-							<li><a href="index.html">WORK</a> </li>
-							<li><a href="about.html">ABOUT</a> </li>
-							<li><a href="resume.html">RESUME</a> </li>
+					<li><a href="index.html" class="magic-hover magic-hover__square">WORK</a> </li>
+					<li><a href="about.html" class="magic-hover magic-hover__square">ABOUT</a> </li>
+					<li><a href="resume.html" class="magic-hover magic-hover__square">RESUME</a> </li>
 							
 						
 						</ul>
@@ -184,7 +185,7 @@
 	<!-- container -->
 
 
-<a href="index.html"><div class="goback">
+<a href="index.html" class="magic-hover magic-hover__square"><div class="goback">
 	<div class="goback_text">GO BACK</div>
 </div>
 </a>
@@ -197,6 +198,18 @@ arrow_back
 </a>
 
 	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="magic_mouse.js"></script>
+	<script type="text/javascript">
+		options = {
+  "cursorOuter": "circle-basic",
+  "hoverEffect": "pointer-overlay",
+  "hoverItemMove": false,
+  "defaultCursor": false,
+  "outerWidth": 30,
+  "outerHeight": 30
+}; 
+ magicMouse(options);
+	</script>
 
 </body>
 
