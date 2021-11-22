@@ -6,7 +6,10 @@
     	<meta name="deveshdanai" content="design, portfolio, devesh danai, devesh">
 		<title>devesh danai</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="css/magic-mouse.css" rel="stylesheet">
+		<link rel="stylesheet" href="mouse.css" />
+<!-- or -->
+<link rel="stylesheet" href="mouse-min.css" />
+
 		<link href="css/normalize.css" rel="stylesheet">
 		<link href="css/main2.css" rel="stylesheet">
 		<link href="css/main.css" rel="stylesheet">
@@ -175,18 +178,21 @@ arrow_back
 </a>
 
 	<script type="text/javascript" src="main.js"></script>
-	<script type="text/javascript" src="magic_mouse.js"></script>
-	<script type="text/javascript">
-		options = {
-  "cursorOuter": "circle-basic",
-  "hoverEffect": "pointer-overlay",
-  "hoverItemMove": false,
-  "defaultCursor": false,
-  "outerWidth": 30,
-  "outerHeight": 30
-}; 
- magicMouse(options);
-	</script>
+	<script type="text/javascript" src="mouse.js"></script>
+<!-- or -->
+
+
+<script>let mouse = new Mouse({
+    mouse: 'point',
+    color: '#cecc92',
+    el: 'a , button',
+    mouseHover: false,
+    mousePointer: false,
+    el_hover: true,
+    mouse_clicked: true,
+    clrChanged: false
+})
+mouse.mouse()</script>
 
 </body>
 

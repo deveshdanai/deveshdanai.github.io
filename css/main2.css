@@ -22,6 +22,35 @@ Author: Chris Castig | @castig
   body {
     background-color: #f6f6f6;
   }
+
+  /* mouseover------------------------------- */
+  body #magicMouseCursor {
+    display: none;
+  }
+  body #magicMouseCursor.cursor-square {
+    display: none;
+  }
+
+  body #magicPointer {
+    display: none;
+  }
+  body #magicPointer.is-hover {
+    display: none;
+  }
+  body #magicPointer.pointer-blur {
+    display: none;
+  }
+  body #magicPointer.pointer-overlay {
+    display: none;
+  }
+
+  body .magic-hover {
+    display: none;
+  }
+  body .magic-hover:hover {
+    display: none;
+  }
+
   /*----------------------------------------------------------------------------------------
      FRAME 1 - left sticky header
 --------------------------------------------------------------------------------------------*/
