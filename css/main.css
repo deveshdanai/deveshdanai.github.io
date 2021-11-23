@@ -489,11 +489,13 @@ if it's not present, don't show loader */
     width: 500px;
     height: 500px;
     background: beige
-      url("https://res.cloudinary.com/dyag5tn5v/image/upload/c_scale,w_644/v1622579481/portfilio/Screenshot_2021-06-02_at_2.00.51_AM.webp")
+      url("https://res.cloudinary.com/dyag5tn5v/image/upload/c_scale,w_3442/v1622579003/portfilio/BlackClay.webp")
       no-repeat center;
     background-size: cover;
     display: none;
   }
+  /* https://res.cloudinary.com/dyag5tn5v/image/upload/c_scale,w_644/v1622579481/portfilio/Screenshot_2021-06-02_at_2.00.51_AM.webp */
+
   .imagebox4 {
     width: 500px;
     height: 500px;
@@ -535,7 +537,7 @@ if it's not present, don't show loader */
     width: 500px;
     height: 500px;
     background: beige
-      url("https://res.cloudinary.com/dyag5tn5v/image/upload/c_scale,w_896/v1622648964/Screenshot_2021-06-02_at_9.18.49_PM_svcx4v.webp")
+      url("https://res.cloudinary.com/dyag5tn5v/image/upload/v1637665945/portfilio/Screenshot_2021-11-23_at_4.42.10_PM.png")
       no-repeat center;
     background-size: cover;
     display: none;
@@ -545,7 +547,7 @@ if it's not present, don't show loader */
     width: 500px;
     height: 500px;
     background: beige
-      url("https://res.cloudinary.com/dyag5tn5v/image/upload/c_scale,w_896/v1622648964/Screenshot_2021-06-02_at_9.18.49_PM_svcx4v.webp")
+      url("https://res.cloudinary.com/dyag5tn5v/image/upload/v1637666286/p8/DSC01iyu585.jpg")
       no-repeat center;
     background-size: cover;
     display: none;
@@ -554,7 +556,7 @@ if it's not present, don't show loader */
     width: 500px;
     height: 500px;
     background: beige
-      url("https://res.cloudinary.com/dyag5tn5v/image/upload/c_scale,w_896/v1622648964/Screenshot_2021-06-02_at_9.18.49_PM_svcx4v.webp")
+      url("https://res.cloudinary.com/dyag5tn5v/image/upload/v1637666286/p8/DSC01iyu585.jpg")
       no-repeat center;
     background-size: cover;
     display: none;
